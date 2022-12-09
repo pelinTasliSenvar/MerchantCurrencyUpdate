@@ -1,0 +1,8 @@
+
+CREATE TABLE [dbo].[CURRENCY_RATE](
+	[STATUS] [bit] NULL,
+	[CURRENCY_DATE] [date] NULL,
+	[CURRENCY_CODE] [nchar](10) NULL,
+	[CURRENCY_NAME] [nvarchar](50) NOT NULL PRIMARY KEY,
+	[CURRENCY_RATE] [decimal](18, 5) NULL
+)
